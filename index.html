@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Card</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+
+
+        <div class="createcard">
+            <h1>Create Contact Card</h1>
+            <form action="process.php" method="POST">
+                <div>
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name">
+                </div>
+                <div>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name">
+                </div>
+                <div>
+                    <label for="description">Description:</label>
+                    <textarea rows="4" cols="40" name="description" id="description" placeholder="enter your text here"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Add User">
+                </div>
+                
+            </form>
+        </div>
+
+        <div class="viewcard">
+            
+        </div>
+    
+    </body>
+</html>
